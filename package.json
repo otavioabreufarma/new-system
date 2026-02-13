@@ -1,0 +1,12 @@
+{
+  "name": "rust-vip-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/backend",
+    "apps/discord-bot"
+  ],
+  "scripts": {
+    "check": "node --check apps/backend/src/server.js && node --check apps/discord-bot/src/bot.js"
+  }
+}
