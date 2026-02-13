@@ -1,0 +1,12 @@
+{
+  "name": "@rust-vip/discord-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}

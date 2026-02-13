@@ -1,0 +1,12 @@
+{
+  "name": "@rust-vip/backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}
